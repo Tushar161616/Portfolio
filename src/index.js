@@ -1,14 +1,31 @@
+// for generating random color
 
-let typeData = new Typed(".role", {
-    strings: [
-        // "Full Stack Developer",
-        "UI/UX Designer",
-        "Web Developer",
-        "Frontend Developer",
-        // "Backend Developer",
-    ],
-    loop: true,
-    typeSpeed: 100,
-    backSpeed: 80,
-    backDelay: 1000,
-});
+const randomColor = function(){
+    const hex = '0123456789ABCDEF';
+    let color = "#";
+
+    for(let i = 0; i<6; i++){
+        color = color + hex[Math.floor(Math.random()*16)];
+    }
+    return color;
+};
+
+let intervalId;
+const sRandomColor = function(){
+   if(!intervalId){
+    intervalId = setInterval(changeBG,1000);
+   }
+    function changeBG(){
+        document.body.style.backgroundColor = randomColor();
+    }
+};
+
+document.querySelector("#start").addEventListener("click",sRandomColor);
+
+const stpRandomColor = function(){
+    clearInterval(intervalId);
+    intervalId = null;
+};
+document.querySelector("#stop").addEventListener("click",stpRandomColor);
+
+// console.log(randomColor());
