@@ -2,6 +2,7 @@ import React,{useState,useRef,useEffect} from "react";
 import "../index.jsx"
 import Typed from "typed.js";
 
+
 const Hero = () => {
     
     // const [displaytext,setDisplaytext] = useState(text);
@@ -58,7 +59,7 @@ const Hero = () => {
 
          {/* img section  */}
         <div className="hero-img-div  h-[500px] w-[500px]  h-img">
-            <img id="hero-img" src="src\assets\IMG_20220211_181310-Photoroom.png" style={{ height: "430px", width: "430px", margin: "30px", border: "8px double black", borderRadius: "50%"}}/>
+            <img id="hero-img" src="assets\IMG_20220211_181310-Photoroom.png" style={{ height: "430px", width: "430px", margin: "30px", border: "8px double black", borderRadius: "50%"}}/>
             
             </div>
     </div>
