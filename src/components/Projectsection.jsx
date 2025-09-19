@@ -314,19 +314,87 @@ const Project = () => {
 
         </div>
 
+          {/* <!-- project-9 --> */}
+     <div className="projects mx-auto h-[60vh] w-[60vw]  rounded">
+        {/* <!-- project image --> */}
+       <img src="../Assets/alarm app img.png" className="w-[100%] h-[100%]"/> 
+{/* 
+         <!-- project text div--> */}
+    <div className="project-content flex flex-col items-center text-center justify-center ">
+        {/* <!-- Tech icons --> */}
+        <div className="flex flex-row gap-2">
+            <img src="../Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
+            <img src="../Assets/CSS img.png" style={{height: "50px", width: "50px"}}/>
+            <img src="../Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
+        </div>
+        {/* <!-- project name --> */}
+        <h2 className="text-white text-4xl font-semibold m-[10px]">Alarm App</h2>
+        {/* <!-- about project --> */}
+        <p className="text-gray-300  font-medium">online alarm platform designed to help you stay punctual and organized.</p>
+        {/* <!-- btn and live links --> */}
+         <div className="flex flex-row items-center gap-5 m-[10px]">
+            <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Alarm-App" target="_blank">Read More</a></button>
+            {/* <!-- github link --> */}
+            <a  href="https://github.com/Tushar161616/Alarm-App" target="_blank"><i className="fa-brands fa-square-github fa-2xl" style={{color: "#ffffff"}}></i>
+            </a>
+            {/* <!-- live link --> */}
+             <a href=" https://tushar161616.github.io/Alarm-App/"><i className="fa-solid fa-up-right-from-square fa-2xl" style={{color: "#ffffff"}}></i>
+             </a>
+         </div>
+{/* <!-- project number --> */}
+<div className="p-no1 text-7xl font-bold text-white ">08</div>
+</div> 
+
+
+        </div>
+
+          {/* <!-- project-10 --> */}
+     <div className="projects mx-auto h-[60vh] w-[60vw]  rounded">
+        {/* <!-- project image --> */}
+       <img src="\Assets\cookpal img.png" className="w-[100%] h-[100%]"/> 
+{/* 
+         <!-- project text div--> */}
+    <div className="project-content flex flex-col items-center text-center justify-center ">
+        {/* <!-- Tech icons --> */}
+        <div className="flex flex-row gap-2">
+            <img src="\Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
+            <img src="\Assets/CSS img.png" style={{height: "50px", width: "50px"}}/>
+            <img src="\Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
+        </div>
+        {/* <!-- project name --> */}
+        <h2 className="text-white text-4xl font-semibold m-[10px]">CookPal Website</h2>
+        {/* <!-- about project --> */}
+        <p className="text-gray-300  font-medium">Cookpal is a responsive food recipe application designed to deliver  a seamless and <br/> engaging user experience.It allows users to easily browse, view,  and manage <br/> a variety of recipes through a clean and intuitive interface.</p>
+        {/* <!-- btn and live links --> */}
+         <div className="flex flex-row items-center gap-5 m-[10px]">
+            <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Alarm-App" target="_blank">Read More</a></button>
+            {/* <!-- github link --> */}
+            <a  href="https://github.com/Tushar161616/Alarm-App" target="_blank"><i className="fa-brands fa-square-github fa-2xl" style={{color: "#ffffff"}}></i>
+            </a>
+            {/* <!-- live link --> */}
+             <a href=" https://tushar161616.github.io/Alarm-App/"><i className="fa-solid fa-up-right-from-square fa-2xl" style={{color: "#ffffff"}}></i>
+             </a>
+         </div>
+{/* <!-- project number --> */}
+<div className="p-no1 text-7xl font-bold text-white ">08</div>
+</div> 
+
+
+        </div>
+
         {/* <!-- project-11 --> */}
         <div className="projects h-[60vh] w-[60vw]  mx-auto rounded">
         {/* project image  */}
-       <img src="src\assets\pw clone img.png" className="w-[100%] h-[100%]"/>
+       <img src="\Assets\pw clone img.png" className="w-[100%] h-[100%]"/>
    
 
          {/* <!-- project text div--> */}
     <div className="project-content flex flex-col items-center text-center justify-center ">
         {/* <!-- Tech icons --> */}
         <div className=" flex flex-row gap-2">
-            <img src="src\assets\HTML img.png" style={{height: "50px", width: "50px"}}/>
-            <img src="src\assets\CSS img.png" style={{height: "50px", width: "50px"}}/>
-            <img src="src\assets\Tailwind CSS.svg" style={{height: "50px", width: "50px"}}/>
+            <img src="\Assets\HTML img.png" style={{height: "50px", width: "50px"}}/>
+            <img src="\Assets\CSS img.png" style={{height: "50px", width: "50px"}}/>
+            <img src="\Assets\Tailwind CSS.svg" style={{height: "50px", width: "50px"}}/>
         </div>
         {/* <!-- project name --> */}
         <h2 className="text-white text-4xl font-semibold p-text1">PW Skills Website</h2>
@@ -355,15 +423,15 @@ const Project = () => {
          {/* <!-- project-12 --> */}
         <div className="projects  h-[60vh] w-[60vw]  mx-auto rounded">
     {/* <!-- project image --> */}
-   <img src="\assets\spotify clone img.png" className="w-[100%] h-[100%]"/> 
+   <img src="\Assets\spotify clone img.png" className="w-[100%] h-[100%]"/> 
 
      {/* <!-- project text div--> */}
 <div className="project-content flex flex-col items-center text-center justify-center ">
     {/* <!-- Tech icons --> */}
     <div className="flex flex-row gap-2">
-        <img src="\assets\HTML img.png" style={{height: "50px", width: "50px"}}/>
-        <img src="\assets\CSS img.png" style={{height: "50px", width: "50px"}}/>
-        <img src="public\assets\bootstrap-logo.svg" style={{height: "50px", width: "50px"}}/>
+        <img src="\Assets\HTML img.png" style={{height: "50px", width: "50px"}}/>
+        <img src="\Assets\CSS img.png" style={{height: "50px", width: "50px"}}/>
+        <img src="\Assets\bootstrap-logo.svg" style={{height: "50px", width: "50px"}}/>
     </div>
     {/* <!-- project name --> */}
     <h2 className="text-white text-4xl font-semibold p-text1">Spotify 2025</h2>
