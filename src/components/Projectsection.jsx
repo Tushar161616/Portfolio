@@ -355,15 +355,15 @@ const Project = () => {
          {/* <!-- project-12 --> */}
         <div className="projects  h-[60vh] w-[60vw]  mx-auto rounded">
     {/* <!-- project image --> */}
-   <img src="src\assets\spotify clone img.png" className="w-[100%] h-[100%]"/> 
+   <img src="\assets\spotify clone img.png" className="w-[100%] h-[100%]"/> 
 
      {/* <!-- project text div--> */}
 <div className="project-content flex flex-col items-center text-center justify-center ">
     {/* <!-- Tech icons --> */}
     <div className="flex flex-row gap-2">
-        <img src="src\assets\HTML img.png" style={{height: "50px", width: "50px"}}/>
-        <img src="src\assets\CSS img.png"style={{height: "50px", width: "50px"}}/>
-        <img src="src\assets\bootstrap-logo.svg" style={{height: "50px", width: "50px"}}/>
+        <img src="\assets\HTML img.png" style={{height: "50px", width: "50px"}}/>
+        <img src="\assets\CSS img.png" style={{height: "50px", width: "50px"}}/>
+        <img src="public\assets\bootstrap-logo.svg" style={{height: "50px", width: "50px"}}/>
     </div>
     {/* <!-- project name --> */}
     <h2 className="text-white text-4xl font-semibold p-text1">Spotify 2025</h2>
