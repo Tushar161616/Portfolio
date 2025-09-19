@@ -188,7 +188,7 @@ const Project = () => {
      <div className="flex flex-row items-center gap-5 m-[10px]">
         <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
         {/* <!-- github link --> */}
-        <a  href="https://github.com/Tushar161616/PW-Skills-Clone" target="_blank"><i class="fa-brands fa-square-github fa-2xl" style={{color: "#ffffff"}}></i>
+        <a  href="https://github.com/Tushar161616/PW-Skills-Clone" target="_blank"><i className="fa-brands fa-square-github fa-2xl" style={{color: "#ffffff"}}></i>
         </a>
         {/* <!-- live link --> */}
          <a href="#"><i className="fa-solid fa-up-right-from-square fa-2xl" style={{color: "#ffffff"}}></i>
@@ -211,7 +211,7 @@ const Project = () => {
          {/* <!-- project text div--> */}
     <div className="project-content flex flex-col items-center text-center justify-center ">
         {/* <!-- Tech icons --> */}
-        <div class="flex flex-row gap-2">
+        <div className="flex flex-row gap-2">
             <img src="../Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
             <img src="../Assets/CSS img.png" style={{height: "50px", width: "50px"}}/>
             <img src="../Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
@@ -283,7 +283,7 @@ const Project = () => {
           {/* <!-- project-8 --> */}
      <div className="projects mx-auto h-[60vh] w-[60vw]  rounded">
         {/* <!-- project image --> */}
-       <img src="../Assets/alarm app img.png" class="w-[100%] h-[100%]"/> 
+       <img src="../Assets/alarm app img.png" className="w-[100%] h-[100%]"/> 
 {/* 
          <!-- project text div--> */}
     <div className="project-content flex flex-col items-center text-center justify-center ">
@@ -299,7 +299,7 @@ const Project = () => {
         <p className="text-gray-300  font-medium">online alarm platform designed to help you stay punctual and organized.</p>
         {/* <!-- btn and live links --> */}
          <div className="flex flex-row items-center gap-5 m-[10px]">
-            <button class="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Alarm-App" target="_blank">Read More</a></button>
+            <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Alarm-App" target="_blank">Read More</a></button>
             {/* <!-- github link --> */}
             <a  href="https://github.com/Tushar161616/Alarm-App" target="_blank"><i className="fa-brands fa-square-github fa-2xl" style={{color: "#ffffff"}}></i>
             </a>

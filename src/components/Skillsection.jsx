@@ -14,7 +14,7 @@ const Skill = () => {
 
             <div className="bg-[rgb(215,215,215)] border-2 border-black h-[200px] w-[300px] flex flex-row items-center justify-evenly cards">
                 <img src="src\assets\CSS img.png" alt="html" style={{height: "100px", width: "100px"}}/>
-            <div class="text-5xl font-bold text-[rgb(38,78,228)]">CSS</div>
+            <div className="text-5xl font-bold text-[rgb(38,78,228)]">CSS</div>
         </div>
 
         <div className="bg-[rgb(215,215,215)] border-2 border-black h-[200px] w-[300px] flex flex-col items-center justify-evenly cards">
