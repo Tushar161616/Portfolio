@@ -259,7 +259,7 @@ const Project = () => {
      {/* <!-- project-7 --> */}
      <div className="projects h-[60vh] w-[60vw] mx-auto   rounded">
         {/* <!-- project image --> */}
-       <img src="public\Assets\jira-d-img .png" className="w-[100%] h-[100%]"/> 
+       <img src="\Assets\jira-d-img .png" className="w-[100%] h-[100%]"/> 
 
          {/* <!-- project text div--> */}
     <div className="project-content flex flex-col items-center text-center justify-center ">
@@ -327,7 +327,7 @@ const Project = () => {
           {/* <!-- project-9 --> */}
      <div className="projects mx-auto h-[60vh] w-[60vw]  rounded">
         {/* <!-- project image --> */}
-       <img src="public\Assets\Blinkit-img.png" className="w-[100%] h-[100%]"/> 
+       <img src="\Assets\Blinkit-img.png" className="w-[100%] h-[100%]"/> 
 {/* 
          <!-- project text div--> */}
     <div className="project-content flex flex-col items-center text-center justify-center ">
