@@ -7,7 +7,7 @@ const About = () => {
         <div id="about-section" className=" w-[100vw] h-[70vh]   bg-[rgb(231,231,231)] flex flex-row justify-evenly border p-[20px]">
         {/* about-img   */}
     <div className="a-img w-[20vw] h-[100%] ml-[70px] mt-[60px]">
-        <img id="p-img" className="border-5 border-black rounded-3xl shadow-2xl h-[40vh] " src="src\assets\IMG_20220211_154917-removebg-preview.png" alt="Profile-img"/>
+        <img id="p-img" className="border-5 border-black rounded-3xl shadow-2xl h-[40vh] " src="\Assets\IMG_20220211_154917-removebg-preview.png" alt="Profile-img"/>
     </div>
     {/* about-content  */}
     <div className="a-content w-[70vw] h-[100%] flex flex-col gap-2 mt-[10px]">

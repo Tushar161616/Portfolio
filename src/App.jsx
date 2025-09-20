@@ -7,6 +7,8 @@ import Skill from './components/Skillsection'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Whatsapp from './components/Whatsapp'
+import Copyright from './components/CopyRight'
 
 
 
@@ -24,6 +26,8 @@ function App() {
       <About />
       <Contact />
       <Footer />
+      <Copyright />
+      <Whatsapp />
        
     </>
   )

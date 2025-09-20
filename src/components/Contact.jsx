@@ -32,7 +32,7 @@ const Contact = () => {
           </button>
 
           <a id="dwn" href="../Assets/Tushar Resume448801.pdf" download=""><button  className="bg-white f-btn1 border-2 hover:bg-[#ff004f] text-xl h-[70px] w-[250px] rounded  flex items-center justify-evenly">
-            Download CV <img src="src\assets\download icon.gif" alt="icon" style={{height: "40px"}}/>
+            Download CV <img src="\Assets\download 2 icon.gif" alt="icon" style={{height: "40px"}}/>
           </button></a>
 
     </div>
