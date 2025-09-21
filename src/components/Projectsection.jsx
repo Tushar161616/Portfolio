@@ -31,7 +31,7 @@ const Project = () => {
     {/* <!-- project name --> */}
     <h2 className="text-white text-4xl font-semibold m-[10px] p-text1">Ytrue Website</h2>
     {/* <!-- about project --> */}
-    <p className="text-gray-300  font-medium p-text2">Your One-Stop Shop for All Types of Led Lights. TechBazaar is a cutting-edge online <br/>marketplace dedicated to providing high-quality Led Lights <br/>at wholesale prices.
+    <p className="text-gray-300  font-medium p-text2">Your One-Stop Shop for All Types of Led Lights.It is a cutting-edge online <br/>marketplace dedicated to providing high-quality Led Lights <br/>at wholesale prices.
 
     </p>
     {/* <!-- btn and live links --> */}
