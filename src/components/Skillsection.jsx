@@ -53,7 +53,7 @@ const Skill = () => {
         </div>
 
         <div className="bg-[rgb(215,215,215)] border-2 border-black h-[200px] w-[300px] flex flex-col items-center justify-evenly cards">
-            <img src="\Assets\c++ img.svg" alt="html" style={{height: "100px", width: "100px"}}/>
+            <img src="\Assets\c img.svg" alt="html" style={{height: "100px", width: "100px"}}/>
         <div className="text-3xl font-bold text-[rgb(0,117,192)]">C++ PROGRAMING</div>
         </div>
 
