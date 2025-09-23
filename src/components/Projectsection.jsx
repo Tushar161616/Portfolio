@@ -58,32 +58,32 @@ const Project = () => {
 {/* <!-- project-2 --> */}
 <div className="projects  h-[60vh] w-[60vw]  mx-auto rounded">
     {/* <!-- project image --> */}
-   <img src="\Assets\spotify clone img.png" className="w-[100%] h-[100%]"/> 
+   <img src="\Assets\techbazzar img.png" className="w-[100%] h-[100%]"/> 
 
      {/* <!-- project text div--> */}
 <div className="project-content flex flex-col items-center text-center justify-center ">
     {/* <!-- Tech icons --> */}
-    <div className="flex flex-row gap-2">
+    {/* <div className="flex flex-row gap-2">
         <img src="\Assets\HTML img.png" style={{height: "50px", width: "50px"}}/>
         <img src="\Assets\Tailwind CSS.svg" style={{height: "50px", width: "50px"}}/>
         <img src="\Assets\React img.png" style={{height: "50px", width: "50px"}}/>
         <img src="\Assets\Redux img.svg" style={{height: "50px", width: "50px"}}/>
-    </div>
+    </div> */}
     {/* <!-- project name --> */}
-    <h2 className="text-white text-4xl font-semibold p-text1">WildQuest</h2>
+    <h2 className="text-white text-4xl font-semibold p-text1">TechBazar</h2>
     {/* <!-- about project --> */}
-    <p className="text-gray-300  font-medium p-text2">WildQuest is a fully animated travel website that offers curated tour packages, delivering <br/> an immersive digital experience with engaging visuals and interactive <br/> elements to inspire every traveler’s journey.
+    <p className="text-gray-300  font-medium p-text2">TechBazar is a WordPress-based e-commerce website for electronic accessories,<br/> featuring a responsive design, easy navigation, secure checkout,<br/> and SEO optimization for a smooth shopping experience.
 
 
     </p>
     {/* <!-- btn and live links --> */}
      <div className="flex flex-row items-center gap-5 m-[10px]">
-        <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Spotify11" target="_blank">Read More</a></button>
+        {/* <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Spotify11" target="_blank">Read More</a></button> */}
         {/* <!-- github link --> */}
-        <a  href="https://github.com/Tushar161616/WildQuest-App" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
-        </a>
+        {/* <a  href="https://github.com/Tushar161616/WildQuest-App" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
+        </a> */}
         {/* <!-- live link --> */}
-         <a href="https://wild-quest-app.vercel.app/"><FontAwesomeIcon icon={faUpRightFromSquare} size="2xl" style={{color: "#ffffff"}}/>
+         <a href="https://techbazaars.rf.gd/"><FontAwesomeIcon icon={faUpRightFromSquare} size="2xl" style={{color: "#ffffff"}}/>
          </a>
      </div>
 {/* <!-- project number --> */}
