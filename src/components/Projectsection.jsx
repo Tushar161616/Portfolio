@@ -15,7 +15,7 @@ const Project = () => {
 
     <div className="projects h-[60vh] w-[60vw]  mx-auto  rounded">
     {/* <!-- project image --> */}
-   <img src="\Assets\ytrue js img .png" className="w-[100%] h-[100%]"/> 
+   <img src="\Assets\wildquest-img.png" className="w-[100%] h-[100%]"/> 
 
      {/* <!-- project text div--> */}
 <div className="project-content flex flex-col items-center text-center justify-center ">
@@ -29,19 +29,19 @@ const Project = () => {
         <img src="../Assets/Redux img.svg" style={{height: "50px", width: "50px"}}/>
     </div>
     {/* <!-- project name --> */}
-    <h2 className="text-white text-4xl font-semibold m-[10px] p-text1">Ytrue Website</h2>
+    <h2 className="text-white text-4xl font-semibold m-[10px] p-text1">WildQuest Website</h2>
     {/* <!-- about project --> */}
-    <p className="text-gray-300  font-medium p-text2">Your One-Stop Shop for All Types of Led Lights.It is a cutting-edge online <br/>marketplace dedicated to providing high-quality Led Lights <br/>at wholesale prices.
+    <p className="text-gray-300  font-medium p-text2">WildQuest is a fully responsive travel booking platform built using React.js and<br/> Tailwind CSS. It highlights tour packages with dynamic content.
 
     </p>
     {/* <!-- btn and live links --> */}
      <div className="flex flex-row items-center gap-5 m-[10px]">
         <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
         {/* <!-- github link --> */}
-        <a  href="https://github.com/Tushar161616/ytrue-ecommerce-website" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
+        <a  href="https://github.com/Tushar161616/WildQuest-App" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
         </a>
         {/* <!-- live link --> */}
-         <a href="https://ytrue-ecommerce-website.vercel.app/"><FontAwesomeIcon icon={faUpRightFromSquare} size="2xl" style={{color: "#ffffff"}}/>
+         <a href="https://wild-quest-app.vercel.app/"><FontAwesomeIcon icon={faUpRightFromSquare} size="2xl" style={{color: "#ffffff"}}/>
          </a>
      </div>
 
@@ -53,44 +53,50 @@ const Project = () => {
  </div>
 
 
+   {/* project-2  */}
 
-
-{/* <!-- project-2 --> */}
-<div className="projects  h-[60vh] w-[60vw]  mx-auto rounded">
+    <div className="projects h-[60vh] w-[60vw]  mx-auto  rounded">
     {/* <!-- project image --> */}
-   <img src="\Assets\techbazzar img.png" className="w-[100%] h-[100%]"/> 
+   <img src="\Assets\ytrue-img.png" className="w-[100%] h-[100%]"/> 
 
      {/* <!-- project text div--> */}
 <div className="project-content flex flex-col items-center text-center justify-center ">
     {/* <!-- Tech icons --> */}
-    {/* <div className="flex flex-row gap-2">
-        <img src="\Assets\HTML img.png" style={{height: "50px", width: "50px"}}/>
-        <img src="\Assets\Tailwind CSS.svg" style={{height: "50px", width: "50px"}}/>
-        <img src="\Assets\React img.png" style={{height: "50px", width: "50px"}}/>
-        <img src="\Assets\Redux img.svg" style={{height: "50px", width: "50px"}}/>
-    </div> */}
+    <div className=" flex flex-row gap-2 items-center">
+        <img src="../Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
+        <img src="../Assets/CSS img.png" style={{height: "50px", width: "50px"}}/>
+        <img src="../Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
+        <img src="../Assets/wordperss icon.png" style={{height: "50px", width: "50px"}}/>
+        <img src="../Assets/mysql logo.png" style={{height: "100px", width: "100px"}}/>
+       
+        
+    </div>
     {/* <!-- project name --> */}
-    <h2 className="text-white text-4xl font-semibold p-text1">TechBazar</h2>
+    <h2 className="text-white text-4xl font-semibold m-[10px] p-text1">Ytrue Website</h2>
     {/* <!-- about project --> */}
-    <p className="text-gray-300  font-medium p-text2">TechBazar is a WordPress-based e-commerce website for electronic accessories,<br/> featuring a responsive design, easy navigation, secure checkout,<br/> and SEO optimization for a smooth shopping experience.
-
+    <p className="text-gray-300  font-medium p-text2">Your One-Stop Shop for All Types of Led Lights.It is a cutting-edge online <br/>marketplace dedicated to providing high-quality Led Lights <br/>at wholesale prices.
 
     </p>
     {/* <!-- btn and live links --> */}
      <div className="flex flex-row items-center gap-5 m-[10px]">
-        {/* <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Spotify11" target="_blank">Read More</a></button> */}
-        {/* <!-- github link --> */}
-        {/* <a  href="https://github.com/Tushar161616/WildQuest-App" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
-        </a> */}
+        <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
+       
         {/* <!-- live link --> */}
-         <a href="https://techbazaars.rf.gd/"><FontAwesomeIcon icon={faUpRightFromSquare} size="2xl" style={{color: "#ffffff"}}/>
+         <a href="https://ytrue.in/"><FontAwesomeIcon icon={faUpRightFromSquare} size="2xl" style={{color: "#ffffff"}}/>
          </a>
      </div>
+
 {/* <!-- project number --> */}
-<div className="p-no2 text-7xl font-bold text-white ">02</div>
-</div>
+<div className ="p-no2 text-7xl font-bold text-white ">02</div>
 
     </div>
+
+ </div>
+
+
+
+
+
 
 
  {/* <!-- project-3 --> */}

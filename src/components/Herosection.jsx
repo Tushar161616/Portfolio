@@ -57,7 +57,7 @@ const Hero = () => {
             <div className="h-text1 text-5xl">HI! <span className="text-[#ff004f] font-bold">Tushar Sharma</span></div>
             <div className="h-text2 text-4xl">I am a<span className="role text-blue-500 text-4xl ml-2 font-medium h-text2" ref={el}>  </span></div>
             <p className="text-xl">I am a software developer and here is my portfolio <br/>website. Here you will learn about my journey as a <br/>software developer</p>
-            <button className="h-btn h-[60px] w-[150px] rounded-md text-2xl text-white bg-indigo-500 hover:bg-green-400 ...">Hire Me</button>
+           <a href="https://wa.me/919057228494" target="_blank"> <button className="h-btn h-[60px] w-[150px] rounded-md text-2xl text-white bg-indigo-500 hover:bg-green-400 ...">Hire Me</button> </a>
         </div>
 
          {/* img section  */}
