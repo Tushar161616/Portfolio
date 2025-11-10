@@ -5,7 +5,7 @@ const Skill = () => {
     return(
         <div id="skill-section" className=" w-[full] h-[100vh] bg-white p-[30px] border">
 
-        <div className="t-skill  w-[100%] h-[90vh] flex flex-row flex-wrap justify-around  ">
+        <div className="t-skill  w-[100%] h-[90vh] flex  flex-wrap justify-around  ">
 
             <div className="bg-[rgb(215,215,215)] border-2 border-black h-[200px] w-[300px]  flex flex-row items-center justify-evenly cards">
                 <img src="\Assets\HTML img.png" alt="html" style={{height: "100px", width: "100px"}}/>

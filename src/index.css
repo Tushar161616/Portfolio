@@ -106,9 +106,184 @@
     top:10px;
     right:10px;
 }
+
+
+
 /* css for mobile */
-@media  screen and (max-width:600px){
+
+
+
+@media  screen and (max-width:435px){
     .nav-items{
+        font-size: 12px;
+    }
+  .nav-img{
+    height: 25px;
+    width: 25px;
+  }
+  .nav-t{
+    font-size:15px;
+    margin-right: 25px;
+    
+    
+  }
+  .nav-logo{
+    padding-top: 10px;
+   margin: auto;
+   align-items: center;
+   
+  }
+  nav{
+
+   
+    height: 40px;
+    flex-direction: column;
+    gap:10px;
+  }
+  #hero-section{
+    flex-direction: column-reverse;
+    gap: 70px;
+  }
+  .hero-img-div{
+    margin-top: 70px;
+    height: 300px;
+    width: 300px;
+  }
+  #hero-img{
+    height: 300px !important;
+    width: 300px !important;
+    margin: auto !important;
+  }
+.h-text1{
+    font-size: 40px;
+}
+.h-text2{
+    font-size: 30px;
+}
+.h-text>p{
+    text-align: center;
+    font-size: 15px;
+}
+.h-text{
+
+    flex-direction: column;
+    align-items: center;
+}
+.projects{
+    height: 30vh !important;
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+  
+   
+    
+}
+.p-text1{
+    font-size: 15px !important;
+    
+}
+.p-text2{
+    font-size: 8px !important;
+    text-align: center;
+    
+}
+.p-no1{
+    position: fixed;
+    top:0px;
+    left:0px;
+    font-size: 40px !important;
+    
+}
+.p-no2{
+    position: fixed;
+    top:0px;
+    right:0px;
+    font-size: 40px !important;
+}
+
+.tech-icons>img{
+     /* border: 2px solid red !important; */
+     width: 20px !important;
+     height: 20px !important;
+}
+
+.pp-btn{
+    width: 30px !important;
+    height: 25px !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+#skill-section{
+    display: none !important;
+}
+
+#about-section{
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 120vh;
+    align-items: center;
+    gap: 150px;
+}
+.a-img{
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    margin-top: 100px;
+   
+}
+.a-content{
+    height: 50vh;
+   
+   
+}
+#contact-section{
+    padding: 20px;
+    height: fit-content;
+
+}
+
+#contact-section>form{
+    width: 100% !important;
+    height: fit-content;
+    padding: 15px;
+}
+
+
+
+.frm-input>input,textarea{
+    width: 100% !important;
+}
+
+.f-btn1{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 7px;
+}
+.f-btn{
+    padding: 0;
+    margin: 10px 0px;
+    flex-direction: column !important;
+}
+
+.f-btn>button{
+    margin: 0 !important;
+}
+
+.bot{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+}
+
+
+
+@media (max-width: 480px){
+
+      .nav-items{
         font-size: 15px;
     }
   .nav-img{
@@ -159,6 +334,8 @@
     flex-direction: column;
     align-items: center;
 }
+
+
 .projects{
     height: 40vh;
     width: 80vw;
@@ -166,11 +343,12 @@
     margin-top: 50px;
 }
 .p-text1{
-    font-size: 30px;
+    font-size: 50px;
 }
 .p-text2{
-    font-size: 10px;
-    text-align: center;
+    font-size: 20px;
+    text-align: left;
+    
 }
 .p-no1{
     position: fixed;
@@ -188,34 +366,59 @@
     display: none;
 }
 #skill-section{
-    height: 420vh;
+    height: 250vh;
+    overflow: hidden;
+    
 }
+
 .t-skill{
     gap: 30px;
+    width: 100%;
 }
+
 .t-skill>div{
     flex-direction: column;
     text-align: center;
+   
 }
+
 #about-section{
     flex-direction: column;
     justify-content: space-evenly;
-    height: 120vh;
-    align-items: center;
-    gap: 150px;
+
+
+    gap: 20px 20px;
+    padding: 20px 40px;
 }
 .a-img{
-    height: 100px;
-    width: 200px;
-    margin: auto;
-    margin-top: 100px;
-    /* z-index: 1; */
+    display: none !important; 
 }
 .a-content{
-    height: 50vh;
+    height: 100%;
    
+   margin: 0px !important;
+   padding: 0 !important;
    
 }
+
+#contact-section{
+    padding: 20px ;
+    height: fit-content;
+
+}
+
+#contact-section>form{
+    width: 100%;
+    height: fit-content;
+    padding: 15px;
+}
+
+
+
+.frm-input>input,textarea{
+    width: 100% !important;
+}
+
 .f-btn1{
     width: 150px;
     height: 50px;
@@ -224,9 +427,14 @@
     margin-top: 7px;
 }
 .f-btn{
-    flex-direction: column;
-    align-items: center;
+    padding: 0;
+    margin: 10px 0px;
 }
+
+.f-btn>button{
+    margin: 0 !important;
+}
+
 .bot{
     flex-direction: column;
     align-items: center;
@@ -234,3 +442,745 @@
 
 
 }
+
+
+
+@media (max-width: 575px){
+
+      .nav-items{
+        font-size: 20px;
+    }
+  .nav-img{
+    height: 25px;
+    width: 25px;
+  }
+  .nav-t{
+    font-size: 30px;
+    margin-right: 25px;
+    
+  }
+  .nav-logo{
+    padding-top: 10px;
+   margin: auto;
+   align-items: center;
+  }
+  nav{
+    height: 40px;
+    flex-direction: column !important;
+    gap:10px;
+    /* border: 5px solid red !important */
+  }
+  #hero-section{
+    flex-direction: column-reverse;
+    gap: 70px;
+  }
+  .hero-img-div{
+    margin-top: 70px;
+    height: 300px;
+    width: 300px;
+  }
+  #hero-img{
+    height: 300px !important;
+    width: 300px !important;
+    margin: auto !important;
+  }
+.h-text1{
+    font-size: 40px;
+}
+.h-text2{
+    font-size: 30px;
+}
+.h-text>p{
+    text-align: center;
+    font-size: 15px;
+}
+.h-text{
+
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.projects{
+    height: 40vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+   
+    
+}
+.p-text1{
+    font-size: 25px;
+    
+}
+.p-text2{
+    font-size: 10px;
+    text-align: center;
+    
+}
+.p-no1{
+    position: fixed;
+    top:0px;
+    left:0px;
+    font-size: 50px;
+    
+}
+.p-no2{
+    position: fixed;
+    top:0px;
+    right:0px;
+    font-size: 50px;
+}
+
+.tech-icons>img{
+     /* border: 2px solid red !important; */
+     width: 30px !important;
+     height: 30px !important;
+}
+
+.pp-btn{
+    width: 90px !important;
+    height: 35px !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+#skill-section{
+    height: 250vh;
+    overflow: hidden;
+   
+    
+}
+
+.t-skill{
+    gap: 30px;
+    width: 100%;
+ 
+}
+
+.t-skill>div{
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+#about-section{
+    /* flex-direction: column; */
+   
+
+    gap: 20px 20px;
+    padding: 20px 40px; 
+}
+.a-img{
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0px !important;
+    
+}
+.a-content{
+    height: 100%;
+   
+   margin: 0px !important;
+   padding: 0 !important;
+   
+}
+
+.a-content>p{
+    text-align: left;
+}
+
+.a-content>ul>li{
+    text-align: left !important;
+}
+
+#contact-section{
+    padding: 20px ;
+    height: fit-content;
+
+}
+
+#contact-section>form{
+    width: 100%;
+    height: fit-content;
+    padding: 15px;
+}
+
+
+
+.frm-input>input,textarea{
+    width: 100% !important;
+}
+
+.f-btn1{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 7px;
+}
+.f-btn{
+    padding: 0;
+    margin: 10px 0px;
+}
+
+.f-btn>button{
+    margin: 0 !important;
+}
+
+.bot{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+}
+
+
+
+ @media (max-width: 767px){
+
+      .nav-items{
+        font-size: 25px;
+       
+    }
+  .nav-img{
+    height: 25px;
+    width: 25px;
+  }
+  .nav-t{
+    font-size:30px;
+    margin-right: 25px;
+    
+  }
+  .nav-logo{
+    padding-top: 10px;
+   margin: auto;
+   align-items: center;
+  }
+  nav{
+    
+    height: 40px;
+    flex-direction: column;
+    gap:10px;
+  }
+  #hero-section{
+    flex-direction: column-reverse;
+    gap: 70px;
+  }
+  .hero-img-div{
+    margin-top: 70px;
+    height: 300px;
+    width: 300px;
+  }
+  #hero-img{
+    height: 300px !important;
+    width: 300px !important;
+    margin: auto !important;
+  }
+.h-text1{
+    font-size: 40px;
+}
+.h-text2{
+    font-size: 30px;
+}
+.h-text>p{
+    text-align: center;
+    font-size: 15px;
+}
+.h-text{
+
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.projects{
+    height: 60vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+}
+.p-text1{
+    font-size: 40px;
+    
+}
+.p-text2{
+    font-size: 12px;
+    text-align: center;
+    
+}
+.p-no1{
+    position: fixed;
+    top:0px;
+    left:0px;
+    font-size: 50px;
+    
+}
+.p-no2{
+    position: fixed;
+    top:0px;
+    right:0px;
+    font-size: 50px;
+}
+
+.tech-icons>img{
+     /* border: 2px solid red !important; */
+     width: 30px !important;
+     height: 30px !important;
+}
+
+.pp-btn{
+    width: 90px !important;
+    height: 35px !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+#skill-section{
+    height: 250vh;
+    overflow: hidden;
+    
+}
+
+.t-skill{
+    gap: 30px;
+    width: 100%;
+}
+
+.t-skill>div{
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+#about-section{
+    /* flex-direction: column; */
+
+    height: 80vh;
+    overflow: hidden;
+    gap: 20px 20px;
+    padding: 20px 40px; 
+}
+.a-img{
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0px !important;
+    
+}
+.a-content{
+    height: 100%;
+   
+   margin: 0px !important;
+   padding: 0 !important;
+   
+}
+
+.a-content>p{
+    text-align: left;
+}
+
+.a-content>ul>li{
+    text-align: left !important;
+}
+
+#contact-section{
+    padding: 20px ;
+    height: fit-content;
+
+}
+
+#contact-section>form{
+    width: 100%;
+    height: fit-content;
+    padding: 15px;
+}
+
+
+
+.frm-input>input,textarea{
+    width: 100% !important;
+}
+
+.f-btn1{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 7px;
+}
+.f-btn{
+    padding: 0;
+    margin: 10px 0px;
+}
+
+.f-btn>button{
+    margin: 0 !important;
+}
+
+.bot{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+} 
+
+
+
+ @media (max-width: 991px){
+
+      .nav-items{
+        font-size: 20px;
+    }
+  .nav-img{
+    height: 25px;
+    width: 25px;
+  }
+  .nav-t{
+    font-size:25px;
+ 
+    
+  }
+  
+  nav{
+    justify-content: space-around !important;
+ 
+  }
+  #hero-section{
+    
+    gap: 70px;
+  }
+  .hero-img-div{
+    margin-top: 70px;
+    height: 300px;
+    width: 300px;
+  }
+  #hero-img{
+    height: 300px !important;
+    width: 300px !important;
+    margin: auto !important;
+  }
+.h-text1{
+    font-size: 40px;
+}
+.h-text2{
+    font-size: 30px;
+}
+.h-text>p{
+
+    font-size: 15px;
+}
+.h-text{
+
+    flex-direction: column;
+ 
+}
+
+
+.projects{
+    height: 60vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+}
+.p-text1{
+    font-size: 40px;
+    
+}
+.p-text2{
+    font-size: 15px;
+    text-align: center;
+    
+}
+.p-no1{
+    position: fixed;
+    top:0px;
+    left:0px;
+    font-size: 50px;
+    
+}
+.p-no2{
+    position: fixed;
+    top:0px;
+    right:0px;
+    font-size: 50px;
+}
+
+.tech-icons>img{
+     /* border: 2px solid red !important; */
+     width: 35px !important;
+     height: 35px !important;
+}
+
+.pp-btn{
+    width: 100px !important;
+    height: 40px !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#skill-section{
+    height: 250vh;
+    overflow: hidden;
+    
+}
+
+.t-skill{
+    gap: 30px;
+    width: 100%;
+}
+
+.t-skill>div{
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+#about-section{
+    /* flex-direction: column; */
+
+    height: 80vh;
+    overflow: hidden;
+    gap: 20px 20px;
+    padding: 20px 40px; 
+}
+
+.a-content{
+    height: 100%;
+   
+   margin: 0px !important;
+   padding: 0 !important;
+   
+}
+
+.a-content>p{
+    text-align: left;
+}
+
+.a-content>ul>li{
+    text-align: left !important;
+}
+
+#contact-section{
+    padding: 20px 80px;
+    height: fit-content;
+
+}
+
+#contact-section>form{
+    width: 100%;
+    height: fit-content;
+    padding: 15px;
+}
+
+
+
+.frm-input>input,textarea{
+    width: 100% !important;
+}
+
+.f-btn1{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 7px;
+}
+.f-btn{
+    padding: 0;
+    margin: 10px 0px;
+}
+
+.f-btn>button{
+    margin: 0 !important;
+}
+
+
+
+
+} 
+
+
+
+
+
+
+
+
+
+@media (max-width: 1440px){
+
+      .nav-items{
+        font-size: 20px;
+    }
+  .nav-img{
+    height: 25px;
+    width: 25px;
+  }
+  .nav-t{
+    font-size:25px;
+ 
+    
+  }
+  
+  nav{
+    justify-content: space-around !important;
+    
+  }
+  #hero-section{
+    
+    gap: 70px;
+  }
+  .hero-img-div{
+    margin-top: 70px;
+    height: 300px;
+    width: 300px;
+  }
+  #hero-img{
+    height: 300px !important;
+    width: 300px !important;
+    margin: auto !important;
+  }
+.h-text1{
+    font-size: 40px;
+}
+.h-text2{
+    font-size: 30px;
+}
+.h-text>p{
+
+    font-size: 15px;
+}
+.h-text{
+
+    flex-direction: column;
+ 
+}
+
+
+.projects{
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+}
+.p-text1{
+    font-size: 40px;
+    
+}
+.p-text2{
+    font-size: 15px;
+    text-align: center;
+    
+}
+.p-no1{
+    position: fixed;
+    top:0px;
+    left:0px;
+    font-size: 50px;
+    
+}
+.p-no2{
+    position: fixed;
+    top:0px;
+    right:0px;
+    font-size: 50px;
+}
+
+.tech-icons>img{
+     /* border: 2px solid red !important; */
+     width: 35px !important;
+     height: 35px !important;
+}
+
+.pp-btn{
+    width: 100px !important;
+    height: 40px !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#skill-section{
+    height: 110vh;
+    overflow: hidden;
+    
+}
+
+.t-skill{
+    gap: 30px;
+    width: 100%;
+}
+
+.t-skill>div{
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+#about-section{
+    /* flex-direction: column; */
+
+    height: fit-content;
+    overflow: hidden;
+    gap: 20px 20px;
+    padding: 20px 40px; 
+}
+
+.a-content{
+    height: 100%;
+   
+   margin: 0px !important;
+   padding: 0 !important;
+   
+}
+
+.a-content>p{
+    text-align: left;
+}
+
+.a-content>ul>li{
+    text-align: left !important;
+}
+
+#contact-section{
+    padding: 20px 80px;
+    height: fit-content;
+
+}
+
+#contact-section>form{
+    width: 60%;
+    height: fit-content;
+    padding: 15px;
+}
+
+
+
+.frm-input>input,textarea{
+    width: 100% !important;
+}
+
+.f-btn1{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 7px;
+}
+.f-btn{
+    padding: 0;
+    margin: 10px 0px;
+}
+
+.f-btn>button{
+    margin: 0 !important;
+}
+
+
+
+
+} 
+
+

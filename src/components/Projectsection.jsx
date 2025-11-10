@@ -20,7 +20,7 @@ const Project = () => {
      {/* <!-- project text div--> */}
 <div className="project-content flex flex-col items-center text-center justify-center ">
     {/* <!-- Tech icons --> */}
-    <div className=" flex flex-row gap-2">
+    <div className="tech-icons flex flex-row gap-2">
         <img src="../Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
         <img src="../Assets/CSS img.png" style={{height: "50px", width: "50px"}}/>
         <img src="../Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
@@ -36,7 +36,7 @@ const Project = () => {
     </p>
     {/* <!-- btn and live links --> */}
      <div className="flex flex-row items-center gap-5 m-[10px]">
-        <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
+        <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
         {/* <!-- github link --> */}
         <a  href="https://github.com/Tushar161616/WildQuest-App" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
         </a>
@@ -62,7 +62,7 @@ const Project = () => {
      {/* <!-- project text div--> */}
 <div className="project-content flex flex-col items-center text-center justify-center ">
     {/* <!-- Tech icons --> */}
-    <div className=" flex flex-row gap-2 items-center">
+    <div className="tech-icons flex flex-row gap-2 items-center">
         <img src="../Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
         <img src="../Assets/CSS img.png" style={{height: "50px", width: "50px"}}/>
         <img src="../Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
@@ -79,7 +79,7 @@ const Project = () => {
     </p>
     {/* <!-- btn and live links --> */}
      <div className="flex flex-row items-center gap-5 m-[10px]">
-        <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
+        <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
        
         {/* <!-- live link --> */}
          <a href="https://ytrue.in/"><FontAwesomeIcon icon={faUpRightFromSquare} size="2xl" style={{color: "#ffffff"}}/>
@@ -108,7 +108,7 @@ const Project = () => {
          {/* <!-- project text div--> */}
     <div className="project-content flex flex-col items-center text-center justify-center ">
         {/* <!-- Tech icons --> */}
-        <div className=" flex flex-row gap-2">
+        <div className="tech-icons flex flex-row gap-2">
              <img src="\Assets\HTML img.png" style={{height: "50px", width: "50px"}}/>
             <img src="\Assets\Tailwind CSS.svg" style={{height: "50px", width: "50px"}}/>
             <img src="\Assets\React img.png" style={{height: "50px", width: "50px"}}/>
@@ -122,7 +122,7 @@ const Project = () => {
         </p>
         {/* <!-- btn and live links --> */}
          <div className="flex flex-row items-center gap-5 m-[10px]">
-            <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
+            <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
             {/* <!-- github link --> */}
             <a  href="https://github.com/Tushar161616/pet-pooja-app" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
             </a>
@@ -146,7 +146,7 @@ const Project = () => {
      {/* <!-- project text div--> */}
 <div className="project-content flex flex-col items-center text-center justify-center ">
     {/* <!-- Tech icons --> */}
-    <div className="flex flex-row gap-2">
+    <div className="tech-icons flex flex-row gap-2">
         <img src="\Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
         <img src="\Assets/Tailwind CSS.svg" style={{height: "50px", width: "50px"}}/>
         <img src="\Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
@@ -160,7 +160,7 @@ const Project = () => {
     </p>
     {/* <!-- btn and live links --> */}
      <div className="flex flex-row items-center gap-5 m-[10px]">
-        <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
+        <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
         {/* <!-- github link --> */}
         <a  href="https://github.com/Tushar161616/Drishya-Image" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
         </a>
@@ -185,7 +185,7 @@ const Project = () => {
      {/* <!-- project text div--> */}
 <div className="project-content flex flex-col items-center text-center justify-center ">
     {/* <!-- Tech icons --> */}
-    <div className="flex flex-row gap-2">
+    <div className="tech-icons flex flex-row gap-2">
         <img src="\Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
         <img src="\Assets/CSS img.png" style={{height: "50px", width: "50px"}}/>
         <img src="\Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
@@ -199,7 +199,7 @@ const Project = () => {
     </p>
     {/* <!-- btn and live links --> */}
      <div className="flex flex-row items-center gap-5 m-[10px]">
-        <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Google-Sheet-Clone" target="_blank">Read More</a></button>
+        <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Google-Sheet-Clone" target="_blank">Read More</a></button>
         {/* <!-- github link --> */}
         <a  href="https://github.com/Tushar161616/Google-Sheet-Clone" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
         </a>
@@ -227,7 +227,7 @@ const Project = () => {
          {/* <!-- project text div--> */}
     <div className="project-content flex flex-col items-center text-center justify-center ">
         {/* <!-- Tech icons --> */}
-        <div className="flex flex-row gap-2">
+        <div className="tech-icons flex flex-row gap-2">
             <img src="../Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
             <img src="../Assets/CSS img.png" style={{height: "50px", width: "50px"}}/>
             <img src="../Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
@@ -243,7 +243,7 @@ const Project = () => {
         </p>
         {/* <!-- btn and live links --> */}
          <div className="flex flex-row items-center gap-5 m-[10px]">
-            <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
+            <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
             {/* <!-- github link --> */}
             <a  href="#" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
             </a>
@@ -268,20 +268,20 @@ const Project = () => {
        <img src="\Assets\jira-d-img .png" className="w-[100%] h-[100%]"/> 
 
          {/* <!-- project text div--> */}
-    <div className="project-content flex flex-col items-center text-center justify-center ">
+    <div className=" project-content flex flex-col items-center text-center justify-center ">
         {/* <!-- Tech icons --> */}
-        <div className="flex flex-row gap-2">
+        <div className="tech-icons flex flex-row gap-2">
             <img src="\Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
             <img src="\Assets\Tailwind CSS.svg" style={{height: "50px", width: "50px"}}/>
             <img src="\Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
         </div>
         {/* <!-- project name --> */}
-        <h2 className="text-white text-4xl font-semibold m-[10px]">Jira Dashboard</h2>
+        <h2 className="text-white text-4xl font-semibold m-[10px] p-text1">Jira Dashboard</h2>
         {/* <!-- about project --> */}
-        <p className="text-gray-300  font-medium">Jira Dashboard is a project management tool featuring draggable elements forseamless task <br/> organization, offering a clear view of progress and team performance.</p>
+        <p className="text-gray-300  font-medium p-text2">Jira Dashboard is a project management tool featuring draggable elements forseamless task <br/> organization, offering a clear view of progress and team performance.</p>
         {/* <!-- btn and live links --> */}
          <div className="flex flex-row items-center gap-5 m-[10px]">
-            <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Alarm-App" target="_blank">Read More</a></button>
+            <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Alarm-App" target="_blank">Read More</a></button>
             {/* <!-- github link --> */}
             <a  href="https://github.com/Tushar161616/Jira-Dashboard" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
             </a>
@@ -302,20 +302,20 @@ const Project = () => {
        <img src="\Assets\ems-2025 img.png" className="w-[100%] h-[100%]"/> 
 {/* 
          <!-- project text div--> */}
-    <div className="project-content flex flex-col items-center text-center justify-center ">
+    <div className=" project-content flex flex-col items-center text-center justify-center ">
         {/* <!-- Tech icons --> */}
-        <div className="flex flex-row gap-2">
+        <div className="tech-icons flex flex-row gap-2">
             <img src="\Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
             <img src="\Assets/CSS img.png" style={{height: "50px", width: "50px"}}/>
             <img src="\Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
         </div>
         {/* <!-- project name --> */}
-        <h2 className="text-white text-4xl font-semibold m-[10px]">Employee Management System</h2>
+        <h2 className="text-white text-4xl font-semibold m-[10px] p-text1">Employee Management System</h2>
         {/* <!-- about project --> */}
-        <p className="text-gray-300  font-medium">Employee Management System is a web app that helps track employee details,<br/> roles, and performance with a simple and efficient interface.</p>
+        <p className="text-gray-300  font-medium p-text2">Employee Management System is a web app that helps track employee details,<br/> roles, and performance with a simple and efficient interface.</p>
         {/* <!-- btn and live links --> */}
          <div className="flex flex-row items-center gap-5 m-[10px]">
-            <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Alarm-App" target="_blank">Read More</a></button>
+            <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Alarm-App" target="_blank">Read More</a></button>
             {/* <!-- github link --> */}
             <a  href="https://github.com/Tushar161616/EMS-2025" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
             </a>
@@ -338,18 +338,18 @@ const Project = () => {
          <!-- project text div--> */}
     <div className="project-content flex flex-col items-center text-center justify-center ">
         {/* <!-- Tech icons --> */}
-        <div className="flex flex-row gap-2">
+        <div className="tech-icons flex flex-row gap-2">
             <img src="\Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
             <img src="\Assets/CSS img.png" style={{height: "50px", width: "50px"}}/>
             <img src="\Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
         </div>
         {/* <!-- project name --> */}
-        <h2 className="text-white text-4xl font-semibold m-[10px]">Blinkit 2025</h2>
+        <h2 className="text-white text-4xl font-semibold m-[10px] p-text1">Blinkit 2025</h2>
         {/* <!-- about project --> */}
-        <p className="text-gray-300  font-medium">Blinkit Clone is a quick grocery delivery app that lets users browse, add to cart, and get <br/>essentials delivered in minutes with a smooth and intuitive experience.</p>
+        <p className="text-gray-300  font-medium p-text2">Blinkit Clone is a quick grocery delivery app that lets users browse, add to cart, and get <br/>essentials delivered in minutes with a smooth and intuitive experience.</p>
         {/* <!-- btn and live links --> */}
          <div className="flex flex-row items-center gap-5 m-[10px]">
-            <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Alarm-App" target="_blank">Read More</a></button>
+            <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Alarm-App" target="_blank">Read More</a></button>
             {/* <!-- github link --> */}
             <a  href="https://github.com/Tushar161616/Blinkit-clone" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
             </a>
@@ -372,18 +372,18 @@ const Project = () => {
          <!-- project text div--> */}
     <div className="project-content flex flex-col items-center text-center justify-center ">
         {/* <!-- Tech icons --> */}
-        <div className="flex flex-row gap-2">
+        <div className="tech-icons flex flex-row gap-2">
             <img src="\Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
             <img src="\Assets/CSS img.png" style={{height: "50px", width: "50px"}}/>
             <img src="\Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
         </div>
         {/* <!-- project name --> */}
-        <h2 className="text-white text-4xl font-semibold m-[10px]">CookPal Website</h2>
+        <h2 className="text-white text-4xl font-semibold m-[10px] p-text1">CookPal Website</h2>
         {/* <!-- about project --> */}
-        <p className="text-gray-300  font-medium">Cookpal is a responsive food recipe application designed to deliver  a seamless and <br/> engaging user experience.It allows users to easily browse, view,  and manage <br/> a variety of recipes through a clean and intuitive interface.</p>
+        <p className="text-gray-300  font-medium p-text2">Cookpal is a responsive food recipe application designed to deliver  a seamless and <br/> engaging user experience.It allows users to easily browse, view,  and manage <br/> a variety of recipes through a clean and intuitive interface.</p>
         {/* <!-- btn and live links --> */}
          <div className="flex flex-row items-center gap-5 m-[10px]">
-            <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Alarm-App" target="_blank">Read More</a></button>
+            <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Alarm-App" target="_blank">Read More</a></button>
             {/* <!-- github link --> */}
             <a  href="https://github.com/Tushar161616/CookPal-2025" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
             </a>
@@ -407,7 +407,7 @@ const Project = () => {
          {/* <!-- project text div--> */}
     <div className="project-content flex flex-col items-center text-center justify-center ">
         {/* <!-- Tech icons --> */}
-        <div className=" flex flex-row gap-2">
+        <div className="tech-icons flex flex-row gap-2">
             <img src="\Assets\HTML img.png" style={{height: "50px", width: "50px"}}/>
             <img src="\Assets\CSS img.png" style={{height: "50px", width: "50px"}}/>
             <img src="\Assets\Tailwind CSS.svg" style={{height: "50px", width: "50px"}}/>
@@ -420,7 +420,7 @@ const Project = () => {
         </p>
         {/* <!-- btn and live links --> */}
          <div className="flex flex-row items-center gap-5 m-[10px]">
-            <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/PW-Skills-Clone" target="_blank">Read More</a></button>
+            <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/PW-Skills-Clone" target="_blank">Read More</a></button>
             {/* <!-- github link --> */}
             <a  href="https://github.com/Tushar161616/PW-Skills-Clone" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
             </a>
@@ -444,7 +444,7 @@ const Project = () => {
      {/* <!-- project text div--> */}
 <div className="project-content flex flex-col items-center text-center justify-center ">
     {/* <!-- Tech icons --> */}
-    <div className="flex flex-row gap-2">
+    <div className="tech-icons flex flex-row gap-2">
         <img src="\Assets\HTML img.png" style={{height: "50px", width: "50px"}}/>
         <img src="\Assets\CSS img.png" style={{height: "50px", width: "50px"}}/>
         <img src="\Assets\bootstrap-logo.svg" style={{height: "50px", width: "50px"}}/>
@@ -457,7 +457,7 @@ const Project = () => {
     </p>
     {/* <!-- btn and live links --> */}
      <div className="flex flex-row items-center gap-5 m-[10px]">
-        <button className="rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Spotify11" target="_blank">Read More</a></button>
+        <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616/Spotify11" target="_blank">Read More</a></button>
         {/* <!-- github link --> */}
         <a  href="https://github.com/Tushar161616/Spotify11" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
         </a>

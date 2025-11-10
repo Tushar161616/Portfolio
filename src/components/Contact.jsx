@@ -14,7 +14,7 @@ const Contact = () => {
         <span className="text-4xl bg-linear-65 from-purple-500 to-pink-500 font-bold h-text2">Let's Talk</span>
  </div>
     {/* form  */}
-        <div className="flex flex-col">
+        <div className="frm-input flex flex-col">
 
         <input type="text" placeholder="Enter your name" className="bg-white h-[50px] w-[50vw] text-lg p-[10px] mx-auto shadow" required />
         <br/>
