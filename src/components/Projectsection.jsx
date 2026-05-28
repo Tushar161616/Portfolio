@@ -24,7 +24,7 @@ const Project = () => {
         <img src="../Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>       
         <img src="../Assets/Tailwind CSS.svg" style={{height: "50px", width: "50px"}}/>
         <img src="../Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
-        <img src="public\Assets\typescript_plain_logo_icon_146316.png" style={{height: "50px", width: "50px"}}/>        
+        <img src="\Assets\typescript_plain_logo_icon_146316.png" style={{height: "50px", width: "50px"}}/>        
         <img src="\Assets\nextjs-logo.png" style={{height: "50px", width: "100px"}}/>
        
     </div>
