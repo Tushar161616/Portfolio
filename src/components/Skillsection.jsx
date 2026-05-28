@@ -3,9 +3,9 @@ import React from "react";
 const Skill = () => {
 
     return(
-        <div id="skill-section" className=" w-[full] h-[100vh] bg-white p-[30px] border">
+        <div id="skill-section" className=" w-[full] h-[100%] bg-white p-[30px] border">
 
-        <div className="t-skill  w-[100%] h-[90vh] flex  flex-wrap justify-around  ">
+        <div className="t-skill  w-[100%] h-[100%] flex gap-5 flex-wrap justify-around  ">
 
             <div className="bg-[rgb(215,215,215)] border-2 border-black h-[200px] w-[300px]  flex flex-row items-center justify-evenly cards">
                 <img src="\Assets\HTML img.png" alt="html" style={{height: "100px", width: "100px"}}/>
@@ -65,6 +65,26 @@ const Skill = () => {
         <div className="bg-[rgb(215,215,215)] border-2 border-black h-[200px] w-[300px] flex flex-col items-center justify-evenly cards">
             <img src="\Assets\sql img.png" alt="html" style={{height: "100px", width: "100px"}}/>
         <div className="text-4xl font-bold text-[rgb(0,121,214)]">SQL DATABASE</div>
+        </div>
+
+        <div className="bg-[rgb(215,215,215)] border-2 border-black h-[200px] w-[300px] flex flex-col items-center justify-evenly cards">
+            <img src="\Assets\nextjs-logo.png" alt="html" style={{height: "80%", width: "60%"}}/>
+        {/* <div className="text-4xl font-bold text-[rgb(0,121,214)]">NextJs</div> */}
+        </div>
+
+        <div className="bg-[rgb(215,215,215)] border-2 border-black h-[200px] w-[300px] flex flex-col items-center justify-evenly cards">
+            <img src="\Assets\node-logo.png" alt="html" style={{height: "50%", width: "60%"}}/>
+        {/* <div className="text-4xl font-bold text-[rgb(0,121,214)]">NodeJs</div> */}
+        </div>
+
+        <div className="bg-[rgb(215,215,215)] border-2 border-black h-[200px] w-[300px] flex flex-col items-center justify-evenly cards">
+            <img src="\Assets\mongodb logo.png" alt="html" style={{height: "100px", width: "100px"}}/>
+        <div className="text-4xl font-bold text-[rgb(66,151,51)]">MONGO DB</div>
+        </div>
+
+        <div className="bg-[rgb(215,215,215)] border-2 border-black h-[200px] w-[300px] flex flex-col items-center justify-evenly cards">
+            <img src="\Assets\express logo.png" alt="html" style={{height: "100px", width: "100px"}}/>
+        <div className="text-4xl font-bold text-black">EXPRESS JS</div>
         </div>
 
         </div>

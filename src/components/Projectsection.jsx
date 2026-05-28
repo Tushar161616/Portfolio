@@ -15,6 +15,91 @@ const Project = () => {
 
     <div className="projects h-[60vh] w-[60vw]  mx-auto  rounded">
     {/* <!-- project image --> */}
+   <img src="\Assets\shopnext img.png" className="w-[100%] h-[100%]"/> 
+
+     {/* <!-- project text div--> */}
+<div className="project-content flex flex-col items-center text-center justify-center ">
+    {/* <!-- Tech icons --> */}
+    <div className="tech-icons flex flex-row gap-2">
+        <img src="../Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>       
+        <img src="../Assets/Tailwind CSS.svg" style={{height: "50px", width: "50px"}}/>
+        <img src="../Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
+        <img src="public\Assets\typescript_plain_logo_icon_146316.png" style={{height: "50px", width: "50px"}}/>        
+        <img src="\Assets\nextjs-logo.png" style={{height: "50px", width: "100px"}}/>
+       
+    </div>
+    {/* <!-- project name --> */}
+    <h2 className="text-white text-4xl font-semibold m-[10px] p-text1">ShopNext Website</h2>
+    {/* <!-- about project --> */}
+    <p className="text-gray-300  font-medium p-text2">ShopNext is a modern e-commerce web application built with Next.js, offering fast performance,<br/> seamless navigation, and a responsive shopping experience.
+
+    </p>
+    {/* <!-- btn and live links --> */}
+     <div className="flex flex-row items-center gap-5 m-[10px]">
+        <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
+        {/* <!-- github link --> */}
+        <a  href="https://github.com/Tushar161616/shop-next-app" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
+        </a>
+        {/* <!-- live link --> */}
+         <a href="https://shop-next-app-nine.vercel.app/signin"><FontAwesomeIcon icon={faUpRightFromSquare} size="2xl" style={{color: "#ffffff"}}/>
+         </a>
+     </div>
+
+{/* <!-- project number --> */}
+<div className ="p-no1 text-7xl font-bold text-white ">01</div>
+
+    </div>
+
+ </div>
+
+
+   {/* project-2  */}
+
+   <div className="projects h-[60vh] w-[60vw]  mx-auto rounded">
+        {/* project image  */}
+       <img src="\Assets\pet-pooja img.png" className="w-[100%] h-[100%]"/>
+   
+
+         {/* <!-- project text div--> */}
+    <div className="project-content flex flex-col items-center text-center justify-center ">
+        {/* <!-- Tech icons --> */}
+        <div className="tech-icons flex flex-row gap-2">
+             <img src="\Assets\HTML img.png" style={{height: "50px", width: "50px"}}/>
+            <img src="\Assets\Tailwind CSS.svg" style={{height: "50px", width: "50px"}}/>
+            <img src="\Assets\Javascript img.svg" style={{height: "50px", width: "50px"}}/>
+            <img src="\Assets\React img.png" style={{height: "50px", width: "50px"}}/>
+            <img src="\Assets\Redux img.svg" style={{height: "50px", width: "50px"}}/>
+            <img src="\Assets\node-logo.png" style={{height: "50px", width: "100px"}}/>
+        </div>
+        {/* <!-- project name --> */}
+        <h2 className="text-white text-4xl font-semibold p-text1">Pet-Pooja App</h2>
+        {/* <!-- about project --> */}
+        <p className="text-gray-300  font-medium p-text2">This Pet-Pooja App is a responsive ReactJS application that provides a smoothand intuitive <br/>  platform for browsing restaurants, exploring menus, andplacing orders with  <br/> real-time updates for a seamless user experience.
+
+        </p>
+        {/* <!-- btn and live links --> */}
+         <div className="flex flex-row items-center gap-5 m-[10px]">
+            <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
+            {/* <!-- github link --> */}
+            <a  href="https://github.com/Tushar161616/pet-pooja-app" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
+            </a>
+            {/* <!-- live link --> */}
+             <a href="https://pet-pooja-app.vercel.app/"><FontAwesomeIcon icon={faUpRightFromSquare} size="2xl" style={{color: "#ffffff"}}/>
+             </a>
+         </div>
+ {/* <!-- project number --> */}
+         <div className ="p-no2 text-7xl font-bold text-white ">02</div>
+        </div>
+
+
+</div>
+
+ 
+
+
+ {/* <!-- project-3 --> */}
+   <div className="projects h-[60vh] w-[60vw]  mx-auto  rounded">
+    {/* <!-- project image --> */}
    <img src="\Assets\wildquest-img.png" className="w-[100%] h-[100%]"/> 
 
      {/* <!-- project text div--> */}
@@ -46,138 +131,15 @@ const Project = () => {
      </div>
 
 {/* <!-- project number --> */}
-<div className ="p-no1 text-7xl font-bold text-white ">01</div>
+<div className="p-no1 text-7xl font-bold text-white">03</div>
 
     </div>
 
  </div>
 
 
-   {/* project-2  */}
-
-    <div className="projects h-[60vh] w-[60vw]  mx-auto  rounded">
-    {/* <!-- project image --> */}
-   <img src="\Assets\ytrue-img.png" className="w-[100%] h-[100%]"/> 
-
-     {/* <!-- project text div--> */}
-<div className="project-content flex flex-col items-center text-center justify-center ">
-    {/* <!-- Tech icons --> */}
-    <div className="tech-icons flex flex-row gap-2 items-center">
-        <img src="../Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
-        <img src="../Assets/CSS img.png" style={{height: "50px", width: "50px"}}/>
-        <img src="../Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
-        <img src="../Assets/wordperss icon.png" style={{height: "50px", width: "50px"}}/>
-        <img src="../Assets/mysql logo.png" style={{height: "100px", width: "100px"}}/>
-       
-        
-    </div>
-    {/* <!-- project name --> */}
-    <h2 className="text-white text-4xl font-semibold m-[10px] p-text1">Ytrue Website</h2>
-    {/* <!-- about project --> */}
-    <p className="text-gray-300  font-medium p-text2">Your One-Stop Shop for All Types of Led Lights.It is a cutting-edge online <br/>marketplace dedicated to providing high-quality Led Lights <br/>at wholesale prices.
-
-    </p>
-    {/* <!-- btn and live links --> */}
-     <div className="flex flex-row items-center gap-5 m-[10px]">
-        <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
-       
-        {/* <!-- live link --> */}
-         <a href="https://ytrue.in/"><FontAwesomeIcon icon={faUpRightFromSquare} size="2xl" style={{color: "#ffffff"}}/>
-         </a>
-     </div>
-
-{/* <!-- project number --> */}
-<div className ="p-no2 text-7xl font-bold text-white ">02</div>
-
-    </div>
-
- </div>
-
-
-
-
-
-
-
- {/* <!-- project-3 --> */}
- <div className="projects h-[60vh] w-[60vw]  mx-auto rounded">
-        {/* project image  */}
-       <img src="\Assets\cookpal img.png" className="w-[100%] h-[100%]"/>
-   
-
-         {/* <!-- project text div--> */}
-    <div className="project-content flex flex-col items-center text-center justify-center ">
-        {/* <!-- Tech icons --> */}
-        <div className="tech-icons flex flex-row gap-2">
-             <img src="\Assets\HTML img.png" style={{height: "50px", width: "50px"}}/>
-            <img src="\Assets\Tailwind CSS.svg" style={{height: "50px", width: "50px"}}/>
-            <img src="\Assets\React img.png" style={{height: "50px", width: "50px"}}/>
-            <img src="\Assets\Redux img.svg" style={{height: "50px", width: "50px"}}/>
-        </div>
-        {/* <!-- project name --> */}
-        <h2 className="text-white text-4xl font-semibold p-text1">Pet-Pooja App</h2>
-        {/* <!-- about project --> */}
-        <p className="text-gray-300  font-medium p-text2">This Pet-Pooja App is a responsive ReactJS application that provides a smoothand intuitive <br/>  platform for browsing restaurants, exploring menus, andplacing orders with  <br/> real-time updates for a seamless user experience.
-
-        </p>
-        {/* <!-- btn and live links --> */}
-         <div className="flex flex-row items-center gap-5 m-[10px]">
-            <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
-            {/* <!-- github link --> */}
-            <a  href="https://github.com/Tushar161616/pet-pooja-app" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
-            </a>
-            {/* <!-- live link --> */}
-             <a href="https://pet-pooja-app.vercel.app/"><FontAwesomeIcon icon={faUpRightFromSquare} size="2xl" style={{color: "#ffffff"}}/>
-             </a>
-         </div>
- {/* <!-- project number --> */}
-         <div className="p-no1 text-7xl font-bold text-white">03</div>
-        </div>
-
-
-</div>
-
-
+ 
   {/* <!-- project-4 --> */}
-   <div className="projects h-[60vh] w-[60vw]  mx-auto  rounded">
-    {/* <!-- project image --> */}
-   <img src="\Assets\Drishya img.png" className="w-[100%] h-[100%]"/> 
-
-     {/* <!-- project text div--> */}
-<div className="project-content flex flex-col items-center text-center justify-center ">
-    {/* <!-- Tech icons --> */}
-    <div className="tech-icons flex flex-row gap-2">
-        <img src="\Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
-        <img src="\Assets/Tailwind CSS.svg" style={{height: "50px", width: "50px"}}/>
-        <img src="\Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
-        <img src="\Assets\React img.png" style={{height: "50px", width: "50px"}}/>
-    </div>
-    {/* <!-- project name --> */}
-    <h2 className="text-white text-4xl font-semibold m-[10px] p-text1">Drishya IMG</h2>
-    {/* <!-- about project --> */}
-    <p className="text-gray-300  font-medium p-text2">Drishya Img is an image search application that integrates the API, allowing users to discover<br/> and explore high-quality photos through a clean and intuitive interface.
-
-    </p>
-    {/* <!-- btn and live links --> */}
-     <div className="flex flex-row items-center gap-5 m-[10px]">
-        <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
-        {/* <!-- github link --> */}
-        <a  href="https://github.com/Tushar161616/Drishya-Image" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
-        </a>
-        {/* <!-- live link --> */}
-         <a href="https://drishya-image.vercel.app/"><FontAwesomeIcon icon={faUpRightFromSquare} size="2xl" style={{color: "#ffffff"}}/>
-         </a>
-     </div>
-{/* <!-- project number --> */}
-<div className="p-no2 text-7xl font-bold text-white ">04</div>
-
-    </div>
-
-
-</div>
-
-
-  {/* <!-- project-5 --> */}
   <div className="projects  h-[60vh] w-[60vw] mx-auto  rounded">
     {/* <!-- project image --> */}
    <img src="../Assets/google sheet clone img.png" className="w-[100%] h-[100%]"/> 
@@ -208,62 +170,15 @@ const Project = () => {
          </a>
      </div>
 {/* <!-- project number --> */}
-<div className="p-no1 text-7xl font-bold text-white ">05</div>
+<div className="p-no2 text-7xl font-bold text-white ">04</div>
 
     </div>
 
 
 </div>
 
-
- 
-
-
-    {/* <!-- project-6 --> */}
-    <div className="projects mx-auto h-[60vh] w-[60vw]   rounded">
-        {/* <!-- project image --> */}
-       <img src="#" className="w-[100%] h-[100%]"/> 
-
-         {/* <!-- project text div--> */}
-    <div className="project-content flex flex-col items-center text-center justify-center ">
-        {/* <!-- Tech icons --> */}
-        <div className="tech-icons flex flex-row gap-2">
-            <img src="../Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
-            <img src="../Assets/CSS img.png" style={{height: "50px", width: "50px"}}/>
-            <img src="../Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
-            <img src="../Assets/Tailwind CSS.svg" style={{height: "50px", width: "50px"}}/>
-            <img src="../Assets/React img.png" style={{height: "50px", width: "50px"}}/>
-            <img src="../Assets/Redux img.svg" style={{height: "50px", width: "50px"}}/>
-        </div>
-        {/* <!-- project name --> */}
-        <h2 className="text-white text-4xl font-semibold m-[10px] p-text1">Zerion Cars</h2>
-        {/* <!-- about project --> */}
-        <p className="text-gray-300  font-medium p-text2">An animated web experience that redefines how luxury cars are showcased <br/>online with style, speed, and sophistication.
-
-        </p>
-        {/* <!-- btn and live links --> */}
-         <div className="flex flex-row items-center gap-5 m-[10px]">
-            <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
-            {/* <!-- github link --> */}
-            <a  href="#" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
-            </a>
-            {/* <!-- live link --> */}
-             <a href="#"><FontAwesomeIcon icon={faUpRightFromSquare} size="2xl" style={{color: "#ffffff"}}/>
-             </a>
-         </div>
-{/* <!-- project number --> */}
-<div className="p-no2 text-7xl font-bold text-white ">06</div>
-
-
-
-        </div>
-
-
-</div>
-
-
-     {/* <!-- project-7 --> */}
-     <div className="projects h-[60vh] w-[60vw] mx-auto   rounded">
+ {/* <!-- project-5 --> */}
+ <div className="projects h-[60vh] w-[60vw] mx-auto   rounded">
         {/* <!-- project image --> */}
        <img src="\Assets\jira-d-img .png" className="w-[100%] h-[100%]"/> 
 
@@ -290,14 +205,17 @@ const Project = () => {
              </a>
          </div>
 {/* <!-- project number --> */}
-<div className="p-no1 text-7xl font-bold text-white ">07</div>
+<div className="p-no1 text-7xl font-bold text-white ">05</div>
 </div>
 
 
         </div>
 
-          {/* <!-- project-8 --> */}
-     <div className="projects mx-auto h-[60vh] w-[60vw]  rounded">
+ 
+
+
+    {/* <!-- project-6 --> */}
+  <div className="projects mx-auto h-[60vh] w-[60vw]  rounded">
         {/* <!-- project image --> */}
        <img src="\Assets\ems-2025 img.png" className="w-[100%] h-[100%]"/> 
 {/* 
@@ -324,14 +242,16 @@ const Project = () => {
              </a>
          </div>
 {/* <!-- project number --> */}
-<div className="p-no2 text-7xl font-bold text-white ">08</div>
+<div className="p-no2 text-7xl font-bold text-white ">06</div>
 </div> 
 
 
         </div>
 
-          {/* <!-- project-9 --> */}
-     <div className="projects mx-auto h-[60vh] w-[60vw]  rounded">
+
+     {/* <!-- project-7 --> */}
+
+      <div className="projects mx-auto h-[60vh] w-[60vw]  rounded">
         {/* <!-- project image --> */}
        <img src="\Assets\Blinkit-img.png" className="w-[100%] h-[100%]"/> 
 {/* 
@@ -358,14 +278,15 @@ const Project = () => {
              </a>
          </div>
 {/* <!-- project number --> */}
-<div className="p-no1 text-7xl font-bold text-white ">09</div>
+<div className="p-no1 text-7xl font-bold text-white ">07</div>
 </div> 
 
 
         </div>
+  
 
-          {/* <!-- project-10 --> */}
-     <div className="projects mx-auto h-[60vh] w-[60vw]  rounded">
+          {/* <!-- project-8 --> */}
+          <div className="projects mx-auto h-[60vh] w-[60vw]  rounded">
         {/* <!-- project image --> */}
        <img src="\Assets\cookpal img.png" className="w-[100%] h-[100%]"/> 
 {/* 
@@ -392,14 +313,15 @@ const Project = () => {
              </a>
          </div>
 {/* <!-- project number --> */}
-<div className="p-no2 text-7xl font-bold text-white ">10</div>
+<div className="p-no2 text-7xl font-bold text-white ">08</div>
 </div> 
 
 
         </div>
+     
 
-        {/* <!-- project-11 --> */}
-        <div className="projects h-[60vh] w-[60vw]  mx-auto rounded">
+          {/* <!-- project-9 --> */}
+              <div className="projects h-[60vh] w-[60vw]  mx-auto rounded">
         {/* project image  */}
        <img src="\Assets\pw clone img.png" className="w-[100%] h-[100%]"/>
    
@@ -429,15 +351,16 @@ const Project = () => {
              </a>
          </div>
  {/* <!-- project number --> */}
-         <div className="p-no1 text-7xl font-bold text-white">11</div>
+         <div className="p-no1 text-7xl font-bold text-white">09</div>
         </div>
 
 
 </div>
+      
+    
 
-
-         {/* <!-- project-12 --> */}
-        <div className="projects  h-[60vh] w-[60vw]  mx-auto rounded">
+          {/* <!-- project-10 --> */}
+             <div className="projects  h-[60vh] w-[60vw]  mx-auto rounded">
     {/* <!-- project image --> */}
    <img src="\Assets\spotify clone img.png" className="w-[100%] h-[100%]"/> 
 
@@ -466,10 +389,93 @@ const Project = () => {
          </a>
      </div>
 {/* <!-- project number --> */}
-<div className="p-no2 text-7xl font-bold text-white ">12</div>
+<div className="p-no2 text-7xl font-bold text-white ">10</div>
 </div>
 
     </div>
+     
+
+        {/* <!-- project-11 --> */}
+                    <div className="projects h-[60vh] w-[60vw]  mx-auto  rounded">
+    {/* <!-- project image --> */}
+   <img src="\Assets\Drishya img.png" className="w-[100%] h-[100%]"/> 
+
+     {/* <!-- project text div--> */}
+<div className="project-content flex flex-col items-center text-center justify-center ">
+    {/* <!-- Tech icons --> */}
+    <div className="tech-icons flex flex-row gap-2">
+        <img src="\Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
+        <img src="\Assets/Tailwind CSS.svg" style={{height: "50px", width: "50px"}}/>
+        <img src="\Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
+        <img src="\Assets\React img.png" style={{height: "50px", width: "50px"}}/>
+    </div>
+    {/* <!-- project name --> */}
+    <h2 className="text-white text-4xl font-semibold m-[10px] p-text1">Drishya IMG</h2>
+    {/* <!-- about project --> */}
+    <p className="text-gray-300  font-medium p-text2">Drishya Img is an image search application that integrates the API, allowing users to discover<br/> and explore high-quality photos through a clean and intuitive interface.
+
+    </p>
+    {/* <!-- btn and live links --> */}
+     <div className="flex flex-row items-center gap-5 m-[10px]">
+        <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
+        {/* <!-- github link --> */}
+        <a  href="https://github.com/Tushar161616/Drishya-Image" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
+        </a>
+        {/* <!-- live link --> */}
+         <a href="https://drishya-image.vercel.app/"><FontAwesomeIcon icon={faUpRightFromSquare} size="2xl" style={{color: "#ffffff"}}/>
+         </a>
+     </div>
+{/* <!-- project number --> */}
+<div className="p-no1 text-7xl font-bold text-white ">11</div>
+
+    </div>
+
+
+</div>
+
+    
+
+
+         {/* <!-- project-12 --> */}
+         <div className="projects h-[60vh] w-[60vw]  mx-auto  rounded">
+    {/* <!-- project image --> */}
+   <img src="\Assets\blog img.png" className="w-[100%] h-[100%]"/> 
+
+     {/* <!-- project text div--> */}
+<div className="project-content flex flex-col items-center text-center justify-center ">
+    {/* <!-- Tech icons --> */}
+    <div className="tech-icons flex flex-row gap-2">
+        <img src="\Assets/HTML img.png" style={{height: "50px", width: "50px"}}/>
+        <img src="\Assets/Tailwind CSS.svg" style={{height: "50px", width: "50px"}}/>
+        <img src="\Assets/Javascript img.svg" style={{height: "50px", width: "50px"}}/>
+        <img src="\Assets\React img.png" style={{height: "50px", width: "50px"}}/>
+        <img src="\Assets\node-logo.png" style={{height: "50px", width: "100px"}}/>
+    </div>
+    {/* <!-- project name --> */}
+    <h2 className="text-white text-4xl font-semibold m-[10px] p-text1">Blog-Api-Webapp</h2>
+    {/* <!-- about project --> */}
+    <p className="text-gray-300  font-medium p-text2">Blog API WebApp is a modern API-based blogging application built using React and Node.js,<br/> designed for fast and efficient content management.
+    </p>
+    {/* <!-- btn and live links --> */}
+     <div className="flex flex-row items-center gap-5 m-[10px]">
+        <button className="pp-btn rounded border-3 border-black text-lg h-[50px] w-[120px] bg-red-500 hover:bg-white hover:text-blue-500"><a  href="https://github.com/Tushar161616" target="_blank">Read More</a></button>
+        {/* <!-- github link --> */}
+        <a  href="https://github.com/Tushar161616/Blog-API-Web" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff"}}/>
+        </a>
+        {/* <!-- live link --> */}
+         <a href="https://blog-api-web-two.vercel.app/"><FontAwesomeIcon icon={faUpRightFromSquare} size="2xl" style={{color: "#ffffff"}}/>
+         </a>
+     </div>
+{/* <!-- project number --> */}
+<div className="p-no1 text-7xl font-bold text-white ">12</div>
+
+    </div>
+
+
+</div>
+
+
+     
 
 </div>
 
